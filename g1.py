@@ -134,7 +134,7 @@ while True:
     connection.commit()
     print('Dados salvos com sucesso no banco de dados MySQL.')
 
-    time.sleep(3600)  # Aguarda 10 minutos antes da próxima execução
+    time.sleep(3600)  # Aguarda 60 minutos antes da próxima execução
 
 cursor.close()
 connection.close()
